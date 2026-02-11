@@ -1,0 +1,31 @@
+
+NOTES FOR GIT GOING FAST
+
+git help -  returns a list of help options
+git help config - opens a browser with all options for syntax
+
+pwd - (Present Working Directory) checks what directory you're in
+cd   - (Change Directory) 
+ls -a (shows all files in a folder) 
+git init 'FileName' (no quotes, creates a file) 
+git config --global   - to configure at global or user level (will be independent of a repository)
+ 
+git config --global user.name "Kiarra Bowen" 
+git config --global user.email "Kiarrabowen2001@gmail.com" 
+
+git config --global --list  (to confirm git is aware of config settings 
+cat ~/.gitconfig    -(prints out contents of a file) 
+
+git add file-name (adds file to staging area ) 
+notepad file-name (opens file in notepad or creates a new one if not found) 
+touch file-name (creates the file but doesnt open it) 
+code .  (opens code editor connected to the directory you're in) 
+git add .  (adds any new modified files to the staging area) 
+git commit -m "Commit message" 
+git commit -a (adds and commits in one) 
+git reset HEAD <file name>  (unstages the file) 
+git checkout -- filename  (discard changes) 
+git log (shows all commits) 
+
+git mv FILENAME WHEREYOUWANTFILETOGO (moves file to where you want) 
+.gitignore (ignores a file) 
