@@ -1,6 +1,9 @@
 body{
     background-color: rgb(240, 71, 164);
     text-align: ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     color:rgb(121, 240, 151);
     text-shadow: 2px 2px 4px rgb(143, 145, 141);
 }
@@ -19,7 +22,7 @@ body{
     display: inline-block;
 }
 .nav a{
-    color: rgb(252, 228, 241);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
@@ -28,7 +31,11 @@ body{
 
 .footer{
     background-color: rgb(238, 194, 218);
-    padding: 10px;
+    padding: 30px;
     text-align: center;
-    color: rgb(252, 228, 241);
+    font-weight: bold;
+    font-size:20px;
+     color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(143, 145, 141);
+    margin-top: auto;
 }
