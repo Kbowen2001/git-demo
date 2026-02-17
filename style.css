@@ -25,3 +25,10 @@ body{
     font-size: 30px;
     margin: 0 10px;
 }
+
+.footer{
+    background-color: rgb(238, 194, 218);
+    padding: 10px;
+    text-align: center;
+    color: rgb(252, 228, 241);
+}
